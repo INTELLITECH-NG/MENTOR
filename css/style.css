@@ -23,12 +23,15 @@ img{
     display: block;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* header */
 
 .header-item-1{
     display: flex;
     justify-content: space-between;
-    border: 1px solid blue;
     text-transform:capitalize;
     font-size: 1rem;
 }
@@ -49,6 +52,12 @@ img{
 
 .logo-text{
     text-align: center;
+    color: var(--deepblue);
+}
+
+.logo-text p{
+    color: grey;
+    font-weight: bold;
 }
 
 nav{
@@ -88,15 +97,385 @@ nav a{
     background: linear-gradient(to right, var(--skyblue),30%,white);
     display: flex;
     justify-content: space-between;
-    border: 1px solid green;
 }
 
 .text{
     width: 40%;
-    margin: auto 2em;
+    margin: auto 4em;
+    color: white;
+}
+
+
+.text div button{
+    padding: 0.7em;
+    border-radius: 5px;
+    border: 0;
+    color: var(--deepblue);
+    font-weight: bold;
+    background: white;
 }
 
 .images{
     width: 60%;
     margin: auto;
 }
+
+.images img{
+    width: 100%;
+}
+
+/* services */
+
+.services{
+    width: 85%;
+    margin: 0 auto;
+}
+.services-item-1 h2,
+.services-item-1 h3,
+.services-item-1 p{
+    text-align: center;
+}
+
+.services-item-1 h2{
+    font-size: 1.2rem;
+    margin-top: 2.5em;
+    margin-bottom: 0;
+    color: var(--deepblue);
+}
+
+.services-item-1 h3{
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.4em;
+    color: grey;
+}
+
+.services-item-1 p{
+    font-size: 1em;
+    color: grey;
+}
+
+.services-item-2-items h3{
+    font-size: 1rem;
+}
+
+
+
+.box{
+    width: 2.8em;
+    height: 2.4em;
+    padding-top: 1em;
+    border-radius: 1em;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+.services-item-2{
+    margin-top: 5em;
+    display: flex;
+    color: #5b5b5b;
+    justify-content: space-between;
+}
+
+.box-1{
+    background: var(--deepblue);
+}
+
+.box-1-a{
+    color: var(--deepblue);
+    font-size: 0.7rem;
+}
+.box-2{
+    background: rgb(240, 196, 114);
+}
+
+.box-2-a{
+    color: rgb(240, 196, 114);
+    font-size: 0.7rem;
+}
+
+.box-3{
+    background: rgb(199, 100, 199);
+}
+
+.box-3-a{
+    color: rgb(199, 100, 199);
+    font-size: 0.7rem;
+}
+.box-4{
+    background: rgb(85, 182, 85);
+}
+
+.box-4-a{
+    color:  rgb(85, 182, 85);
+    font-size: 0.7rem;
+}
+
+.box-5{
+    background: rgb(63, 185, 233);
+}
+
+.box-5-a{
+    color: rgb(63, 185, 233);
+    font-size: 0.7rem;
+}
+
+.box-6{
+    background: rgb(253, 91, 91);
+}
+
+.box-6-a{
+    color:rgb(253, 91, 91);
+    font-size: 0.7rem;
+}
+
+.services-item-2-items{
+    width: 30%;
+}
+
+.services-item-2-items p{
+    font-size: 0.8rem;
+}
+
+/* about us */
+
+.about{
+    background:#f3f3ea ;
+    margin-bottom: 2em;
+
+}
+
+.about-item{
+    margin: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-item-1{
+    width: 45%;
+    margin-top: 2em;
+}
+
+.about-item-1 h2{
+    color: var(--deepblue);
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.about-item-1 h3{
+    font-size: 1.7rem;
+    margin-top: 0.3em;
+    color:#5b5b5b ;
+    margin-bottom: 0.4em;
+}
+
+.about-item-1 p{
+    font-size: 0.8rem;
+    color: grey;
+}
+
+.about-item-1 a{
+    text-decoration: none;
+    background: var(--deepblue);
+    padding: 0.5em;
+    border-radius: 0.3em;
+    display: inline-block;
+    margin-top: 0.3em;
+    color: white;
+}
+
+.about-item-2{
+    width: 45%;
+}
+
+.about-item-2 img{
+    width: 100%;
+    border-radius: 1em;
+    margin: 2em;
+}
+
+/* why choose us section */
+
+.why-item{
+    margin:4em 2em;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.why-item-1{
+    width: 45%;
+    margin: auto 1em;
+}
+
+.why-item-1 img{
+    width: 100%;
+    border-radius: 1em;
+}
+
+.why-item-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.why-item-2 h2{
+    font-size: 1rem;
+    color: var(--deepblue);
+    margin-bottom: 0;
+}
+
+.why-item-2 h3{
+    font-size: 1.6rem;
+    color: #5b5b5b;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.why-item-2-inner{
+    display: flex;
+    justify-content: space-around;
+}
+
+.why-item-2-inner-1{
+    width: 85%;
+    margin-right: 1em;
+}
+
+.why-item-2-inner-1 h3{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-bottom: 0.4em;
+}
+
+.why-item-2-inner-1 p{
+    font-size: 0.8rem;
+    margin-top: 0;
+}
+.why-item-2-inner-2{
+    /* background: var(--deepblue); */
+    margin:auto 0;
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: 50%;
+    padding: 0.5em;
+    box-shadow: grey;
+    color: white;
+    width: 10%;
+}
+
+/* connect */
+
+.connect{
+    background: var(--deepblue);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.connect h3{
+    font-size: 1.4rem;
+}
+
+.connect h4{
+    font-weight: 300;
+}
+.connect-item-1{
+    border-right: 1px solid white;
+    width: 50%;
+    margin-left: 4em;
+}
+
+.connect-item-2{
+    width: 50%;
+    text-align: right;
+    margin-right: 4em;
+}
+
+/* clients */
+.client h3{
+    font-size: 1.1rem;
+    margin-top: 3em;
+    margin-left: 3em;
+    margin-bottom: 0;
+    color: var(--deepblue);
+}
+
+.client p{
+    font-size: 1.6rem;
+    margin-top: 0.4em;
+    margin-left: 2em;
+    color: #5b5b5b;;
+}
+
+.images-of-clients{
+    width: 100%;
+    height: 5em;
+    border: 1px solid var(--deepblue);
+}
+
+.get-started{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 4em;
+    z-index: 2;
+    background: white;
+    height: 13em;
+}
+
+.get-started h3{
+    margin-bottom: 1em;
+    margin-top: 4em;
+}
+
+.get-started p{
+    margin-bottom: 1.5em;
+    color: #5b5b5b;;
+}
+
+
+footer{
+    background: #5b5b5b;
+    color: white;
+}
+
+.footer-item{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.footer-item h3{
+    font-size: 0.6rem;
+    margin-top: 14em;
+    text-align: left;
+}
+
+.footer-item h4{
+    font-size: 0.5rem;
+}
+
+.footer-item ul{
+    padding-left: 0;
+}
+
+.footer-item ul li{
+    list-style: none;
+}
+
+.footer-item a{
+    text-decoration: none;
+    font-size: 0.5rem;
+    color: white;
+    text-align: left;
+    display: block;
+}
+
