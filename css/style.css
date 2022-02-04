@@ -93,6 +93,10 @@ nav a{
     color: white;
 }
 
+.quote:hover{
+    background: var(--skyblue);
+}
+
 .header-item-2{
     background: linear-gradient(to right, var(--skyblue),30%,white);
     display: flex;
