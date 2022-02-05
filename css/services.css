@@ -141,6 +141,29 @@ nav a{
     text-align: justify;
     color: var(--gray);
 }
+
+/* training */
+.training-proper{
+    display: flex;
+    justify-content: space-between;
+}
+.training-item{
+    margin-top: 2em;
+    width: 48%;
+    border: 1px solid grey;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background:var(--skyblue);
+}
+
+hr{
+    border-top:1px solid grey;
+}
+.training-item-1{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* clients */
 .client h3{
     font-size: 1.1rem;
