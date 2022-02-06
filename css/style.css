@@ -34,6 +34,7 @@ a{
     justify-content: space-between;
     text-transform:capitalize;
     font-size: 1rem;
+    height: 5em;
 }
 
 .logo{
@@ -62,15 +63,15 @@ a{
 
 nav{
     margin: auto;
+    position: relative;
 }
-nav ul{
+nav > ul{
     display: flex;
     justify-content: center;
     list-style: none;
-    
 }
 
-nav li{
+nav ul li{
     margin-right: 1.5em;
 }
 
@@ -96,6 +97,37 @@ nav a{
 .quote:hover{
     background: var(--skyblue);
 }
+
+.subgroup{
+    display: none;
+    font-size: 0.7rem;
+    margin-top: 2em;
+    
+}
+
+.subgroup ul{
+    list-style: none;
+    position: absolute;
+    border-radius: 1em;
+    border: 1px solid rgb(219, 216, 216);
+    background: white;
+    padding-left: 0;
+    top: 5em;
+    z-index: 1;
+}
+
+.subgroup ul li{
+    padding: 1em;
+}
+.subgroup a:hover{
+    color: var(--deepblue);
+}
+
+ul li:hover .subgroup{
+    display:block;
+
+}
+
 
 .header-item-2{
     background: linear-gradient(to right, var(--skyblue),30%,white);
