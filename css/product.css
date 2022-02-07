@@ -243,6 +243,19 @@ footer{
 
 }
 
+.intel{
+    display: flex;
+    flex-direction: column;
+}
+
+.intel div h4{
+    display: inline-block;
+    text-align: left;
+    padding-right: 0.4em;
+    font-size: 0.8rem;
+    
+}
+
 .footer-item h3{
     font-size: 0.6rem;
     margin-top: 14em;
@@ -251,6 +264,7 @@ footer{
 
 .footer-item h4{
     font-size: 0.5rem;
+    text-align: left;
 }
 
 .footer-item ul{
@@ -267,5 +281,5 @@ footer{
     color: white;
     text-align: left;
     display: block;
+    padding: 0.6em;
 }
-

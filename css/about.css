@@ -34,7 +34,6 @@ a{
     justify-content: space-between;
     text-transform:capitalize;
     font-size: 1rem;
-    height: 5em;
 }
 
 .logo{
@@ -69,9 +68,10 @@ nav > ul{
     display: flex;
     justify-content: center;
     list-style: none;
+    
 }
 
-nav ul li{
+nav li{
     margin-right: 1.5em;
 }
 
@@ -112,8 +112,6 @@ nav a{
     border: 1px solid rgb(219, 216, 216);
     background: white;
     padding-left: 0;
-    top: 5em;
-    z-index: 1;
 }
 
 .subgroup ul li{
@@ -128,154 +126,24 @@ ul li:hover .subgroup{
 
 }
 
-
 .header-item-2{
-    background: linear-gradient(to right, var(--skyblue),30%,white);
-    display: flex;
-    justify-content: space-between;
+    background: rgb(234, 247, 252);
 }
 
-.text{
-    width: 40%;
-    margin: auto 4em;
-    color: white;
-}
-
-
-.text div button{
-    padding: 0.7em;
-    border-radius: 5px;
-    border: 0;
-    color: var(--deepblue);
-    font-weight: bold;
-    background: white;
-}
-
-.images{
-    width: 60%;
-    margin: auto;
-}
-
-.images img{
-    width: 100%;
-}
-
-/* services */
-
-.services{
-    width: 85%;
-    margin: 0 auto;
-}
-.services-item-1 h2,
-.services-item-1 h3,
-.services-item-1 p{
+.header-item-2 h2{
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
     text-align: center;
-}
-
-.services-item-1 h2{
-    font-size: 1.2rem;
-    margin-top: 2.5em;
-    margin-bottom: 0;
+    font-size: 2rem;
     color: var(--deepblue);
 }
 
-.services-item-1 h3{
-    font-size: 1.5em;
-    margin-top: 0.5em;
-    margin-bottom: 0.4em;
-    color: grey;
-}
-
-.services-item-1 p{
-    font-size: 1em;
-    color: grey;
-}
-
-.services-item-2-items h3{
-    font-size: 1rem;
-}
-
-
-
-.box{
-    width: 2.8em;
-    height: 2.4em;
-    padding-top: 1em;
-    border-radius: 1em;
-    color: white;
+.header-item-2 p{
     text-align: center;
-    font-size: 1.2rem;
-}
-
-
-.services-item-2{
-    margin-top: 5em;
-    display: flex;
-    color: #5b5b5b;
-    justify-content: space-between;
-}
-
-.box-1{
-    background: var(--deepblue);
-}
-
-.box-1-a{
-    color: var(--deepblue);
-    font-size: 0.7rem;
-}
-.box-2{
-    background: rgb(240, 196, 114);
-}
-
-.box-2-a{
-    color: rgb(240, 196, 114);
-    font-size: 0.7rem;
-}
-
-.box-3{
-    background: rgb(199, 100, 199);
-}
-
-.box-3-a{
-    color: rgb(199, 100, 199);
-    font-size: 0.7rem;
-}
-.box-4{
-    background: rgb(85, 182, 85);
-}
-
-.box-4-a{
-    color:  rgb(85, 182, 85);
-    font-size: 0.7rem;
-}
-
-.box-5{
-    background: rgb(63, 185, 233);
-}
-
-.box-5-a{
-    color: rgb(63, 185, 233);
-    font-size: 0.7rem;
-}
-
-.box-6{
-    background: rgb(253, 91, 91);
-}
-
-.box-6-a{
-    color:rgb(253, 91, 91);
-    font-size: 0.7rem;
-}
-
-.services-item-2-items{
-    width: 30%;
-}
-
-.services-item-2-items p{
+    padding-bottom: 2em;
     font-size: 0.8rem;
+    color: var(--gray);
 }
-
-/* about us */
 
 .about{
     background:#f3f3ea ;
@@ -297,7 +165,7 @@ ul li:hover .subgroup{
 .about-item-1 h2{
     color: var(--deepblue);
     font-size: 1rem;
-    margin-bottom: 0;
+    margin-bottom: 1em;
 }
 
 .about-item-1 h3{
@@ -390,6 +258,7 @@ ul li:hover .subgroup{
 .why-item-2-inner-1 p{
     font-size: 0.8rem;
     margin-top: 0;
+    color: var(--gray);
 }
 .why-item-2-inner-2{
     /* background: var(--deepblue); */
@@ -402,33 +271,90 @@ ul li:hover .subgroup{
     color: white;
     width: 10%;
 }
-
-/* connect */
-
-.connect{
+.box-1{
     background: var(--deepblue);
+}
+
+.box-2{
+    background: rgb(240, 196, 114);
+}
+
+.box-3{
+    background: rgb(199, 100, 199);
+}
+
+.box-4{
+    background: rgb(85, 182, 85);
+}
+
+/* Vision Mission Core-Value Goal */
+
+.our{
     display: flex;
     justify-content: space-between;
-    color: white;
+    margin: 0 2em;
 }
 
-.connect h3{
-    font-size: 1.4rem;
+.our div{
+    padding: 1em;
+    width: 20%;
+    box-shadow: -2px -2px  2px rgb(221, 212, 212), 2px 2px 2px rgb(221, 212, 212);
 }
 
-.connect h4{
-    font-weight: 300;
+.our h3{
+    font-size: 1rem;
 }
-.connect-item-1{
-    border-right: 1px solid white;
-    width: 50%;
-    margin-left: 4em;
+.our-vision h3{
+    color: var(--deepblue);
 }
 
-.connect-item-2{
-    width: 50%;
-    text-align: right;
-    margin-right: 4em;
+.our-mission h3{
+    color:rgb(240, 196, 114)
+}
+
+.our-Core-values h3{
+    color: rgb(199, 100, 199) ;
+}
+
+.our-goal h3{
+    color: rgb(85, 182, 85) ;
+}
+
+.our p{
+    font-size: 0.8rem;
+    line-height: 1.5em;
+    text-align: justify;
+    color: var(--gray);
+}
+
+/* our partners */
+
+.partners h3{
+    color: var(--deepblue);
+    margin-left: 2em;
+    font-size: 1rem;
+    margin-top: 4em;
+}
+
+.partner-logo{
+    width: 70%;
+    height: 5em;
+    border: 1px solid var(--deepblue);
+    margin: 0 auto;
+}
+
+.client-remark{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.client-remark h3{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.client-remark img{
+    margin: 0 auto;
 }
 
 /* clients */
@@ -460,7 +386,7 @@ ul li:hover .subgroup{
     position: relative;
     top: 4em;
     z-index: 2;
-    background: white;
+    background: var(--deepblue);
     height: 13em;
 }
 
@@ -471,7 +397,13 @@ ul li:hover .subgroup{
 
 .get-started p{
     margin-bottom: 1.5em;
-    color: #5b5b5b;;
+    color: white;
+}
+.quote-base{
+    background: white;
+    padding: 0.6em;
+    border-radius: 5px;
+    color: var(--deepblue);
 }
 
 
@@ -529,3 +461,4 @@ footer{
     display: block;
     padding: 0.6em;
 }
+
