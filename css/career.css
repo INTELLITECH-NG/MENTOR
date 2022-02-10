@@ -1,0 +1,380 @@
+:root{
+    --skyblue: #84b6d1;
+    --deepblue: rgba(0,119,181,255);
+    --gray: #424040;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+p{
+    font-size: 0.5rem;
+    margin-top: 0;
+}
+
+img{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header */
+
+.header-item-1{
+    display: flex;
+    justify-content: space-between;
+    text-transform:capitalize;
+    font-size: 1rem;
+    height: 5em;
+}
+
+.logo{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.logo-design{
+    border: 1px solid blue;
+    width: 30%;
+    margin: auto;
+}
+
+.logo-text{
+    text-align: center;
+    color: var(--deepblue);
+}
+
+.logo-text p{
+    color: grey;
+    font-weight: bold;
+}
+
+nav{
+    margin: auto;
+    position: relative;
+}
+nav > ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin-right: 1.5em;
+}
+
+nav a{
+    text-decoration: none;
+    padding: .25em 0;
+    color: gray;
+    font-weight: bold;
+}
+
+.current{
+    color: var(--deepblue);
+    border-bottom: 1px solid var(--deepblue);
+}
+
+.quote{
+    background: var(--deepblue);
+    padding: 0.6em;
+    border-radius: 5px;
+    color: white;
+}
+
+.quote:hover{
+    background: var(--skyblue);
+}
+
+.subgroup{
+    display: none;
+    font-size: 0.7rem;
+    margin-top: 2em;
+    
+}
+
+.subgroup ul{
+    list-style: none;
+    position: absolute;
+    border-radius: 1em;
+    border: 1px solid rgb(219, 216, 216);
+    background: white;
+    padding-left: 0;
+    top: 5em;
+    z-index: 1;
+}
+
+.subgroup ul li{
+    padding: 1em;
+}
+.subgroup a:hover{
+    color: var(--deepblue);
+}
+
+ul li:hover .subgroup{
+    display:block;
+
+}
+
+
+.header-item-2{
+    background: rgb(234, 247, 252);
+}
+
+.header-item-2 h2{
+    padding-top: 1.3em;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--deepblue);
+}
+
+.header-item-2 p{
+    text-align: center;
+    padding-bottom: 2em;
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+
+
+/*
+=============Main========
+*/
+
+/* career */
+
+.career-box{
+    width: 80%;
+    margin: 3em auto;
+   background: blue;
+    background-size: cover;
+    height: 22em;
+    background-image: url('/images/lady-with-laptop-image.jpg');
+    background-size: cover;
+    border-radius: 1em;
+}
+
+ .center{
+    width: 50%;
+    height: 15em;
+    display: inline-block;
+    margin: 3em 2em 5em 2em;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.center h3{
+    font-size: 2rem;
+    color: var(--gray);
+    margin: 1.5em;
+}
+
+.center a{
+    display: inline-block;
+    background: var(--deepblue);
+    padding: 0.8em;
+    border-radius: 5px;
+    color: white;
+    margin: 0 3em;
+    font-size: 0.8rem;
+}
+
+.benefit h3{
+    font-size: 1rem;
+    color: var(--deepblue);
+    text-align: center;
+}
+
+.benefit p{
+    color: var(--gray);
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.benefit-items{
+    margin: 0 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefit-items-1{
+    width: 30%;
+}
+
+.benefit-items-1 h3{
+    text-align: left;
+}
+
+.benefit-items-1 p{
+    font-size: 0.8rem;
+    font-weight: normal;
+    text-align: left;
+}
+
+/*=====laTEST vACANCIES====*/
+.vacancies{
+    background: rgb(240, 235, 235);
+    color: var(--gray);
+    height: 40em;
+}
+
+.vacancies-item{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+}
+
+.vacancies h3{
+    text-align: center;
+    color: var(--deepblue);
+    padding: 2em;
+    font-size: 1.4rem;
+    margin-bottom: 1em;
+}
+
+.vacancies-item h4{
+    width: 22%;
+    padding: 1em;
+    margin: 0;
+}
+
+.vacancies-item-1{
+    display: flex;
+    width: 80%;
+    margin: 0.4em auto;
+    background: white;
+    
+}
+
+.vacancies-item-1 p{
+    width: 22%;
+    font-size: 1rem;
+    padding: 1em;
+    margin-bottom: 0;
+}
+
+.vacancies-item-1 a{
+    display: inline-block;
+    padding: 1em;
+    color: var(--deepblue);
+    font-size: 1rem;
+}
+
+.images{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: 2em auto;
+}
+
+.image-1{
+    border-radius: 1em;
+    width: 73%;
+}
+
+.image-2{
+    border-radius: 1em;
+    width: 24%;
+    height: 15em;
+    margin: auto 0;
+}
+
+
+
+/*====Connect With us===*/
+
+.connect{
+    background: var(--deepblue);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.connect h3{
+    font-size: 1.4rem;
+}
+
+.connect h4{
+    font-weight: 300;
+}
+.connect-item-1{
+    border-right: 1px solid white;
+    width: 50%;
+    margin-left: 4em;
+}
+
+.connect-item-2{
+    width: 50%;
+    text-align: right;
+    margin-right: 4em;
+}
+
+/* footer */
+
+footer{
+    background: #5b5b5b;
+    color: white;
+}
+
+.footer-item{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.intel{
+    display: flex;
+    flex-direction: column;
+}
+
+.intel div h4{
+    display: inline-block;
+    text-align: left;
+    padding-right: 0.4em;
+    font-size: 0.8rem;
+    
+}
+
+.footer-item h3{
+    font-size: 0.6rem;
+    margin-top: 14em;
+    text-align: left;
+}
+
+.footer-item h4{
+    font-size: 0.5rem;
+    text-align: left;
+}
+
+.footer-item ul{
+    padding-left: 0;
+}
+
+.footer-item ul li{
+    list-style: none;
+}
+
+.footer-item a{
+    text-decoration: none;
+    font-size: 0.5rem;
+    color: white;
+    text-align: left;
+    display: block;
+    padding: 0.6em;
+}
